@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-section{
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url("../assets/Hero-bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-section>p{
+    margin: 20px 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.banner-section>button{
+    background-color:rgb(13, 19, 33);
+    color: white;
+    padding: 7px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
