@@ -170,3 +170,40 @@ padding: 50px 100px;
 }
 
 /* my current target end */
+
+
+/* Need support section start here */
+.need-support-container{
+    width: 1140px;
+    height: 315px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.need-support-container h1,p{
+    text-align: center;
+    padding: 10px;
+}
+.need-support-container .text{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 78%;
+    background-color: white;
+}
+.need-support-container .submit{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 20%;
+    background-color: white;
+}
+
+/* Need support section end here */
