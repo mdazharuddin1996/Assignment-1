@@ -120,3 +120,53 @@ padding: 50px 100px;
     margin-bottom: 20px;
  }
 /* < !--==============My Inspiration part end here==================--> */
+
+
+/* my current target start */
+.current-container{
+    width: 1140px;
+    height: 460px;
+    margin: 100px auto;
+    text-align: center;
+}
+.current-title{
+    margin: 30px 10px;
+}
+.target-step-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(238, 244, 242);
+}
+.step1,.step2,.step3{
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+.step1{
+    background-color: rgb(221, 202, 176);
+}
+.step2{
+    background-color: antiquewhite;
+}
+.step3{
+    background-color: rgb(184, 181, 177);
+}
+.target-step-container div h1{
+    margin: 15px 0;
+}
+.target-step-container div p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+}
+.target-step-container div a{
+    font-size: 25px;
+}
+
+/* my current target end */
