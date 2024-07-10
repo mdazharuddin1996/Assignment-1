@@ -27,12 +27,13 @@
     font-size: 20px;
 }
 
-.banner-section>button{
+.banner-section>#link-button {
     background-color:rgb(13, 19, 33);
     color: white;
     padding: 7px 10px;
     font-size: 20px;
     border-radius: 5px;
+    text-decoration: none;
 }
 /* banner pars end form here */
 
